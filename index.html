@@ -153,7 +153,7 @@
             position: absolute;
             inset: 0;
             z-index: 1;
-            /* Creates a vignette to seamlessly blend the scrolling posters into the dark theme while keeping text readable */
+
             background: 
                 radial-gradient(circle at center, rgba(5,5,9,0.4) 0%, rgba(5,5,9,0.85) 60%, #050509 100%),
                 linear-gradient(to right, #050509 0%, transparent 20%, transparent 80%, #050509 100%),
@@ -310,7 +310,6 @@
             transform: translateX(4px) translateY(-4px);
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 40px 24px 24px;
@@ -325,7 +324,6 @@
             letter-spacing: 0.05em;
         }
 
-        /* Scrollbar styles */
         ::-webkit-scrollbar { width: 10px; height: 10px; }
         ::-webkit-scrollbar-track { background: #0b0d14; border-radius: 10px; }
         ::-webkit-scrollbar-thumb { background: #262938; border-radius: 10px; border: 2px solid #0b0d14; }
@@ -380,10 +378,10 @@
 
         const mirrors = [
              {
-                url: "https://glowavefm.com",
+                url: "https://glowwavefm.com",
                 displayUrl: "glowwavefm.com",
-                type: "Primary Network",
-                description: "Main server node. Best for users in North America and Europe.",
+                type: "Primary Radio Link",
+                description: "Main link For Glowwave-FM",
                 status: "Online"
             }, 
             {
